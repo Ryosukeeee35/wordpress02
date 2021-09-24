@@ -502,11 +502,11 @@ main {
 }
 
 .pagetop {
-  background-color: #75af57;
-  bottom: 30px;
+  background: url(../img/arrow.png) no-repeat center center / contain;
+  bottom: 20px;
   height: 40px;
   position: fixed;
-  right: 30px;
+  right: 20px;
   width: 40px;
   z-index: 99;
 }
