@@ -25,6 +25,7 @@
 				</li>
 				<?php endwhile; ?>
 			</ol>
+			<?php the_posts_pagination(); ?>
 		<?php else : ?>
 			<p>該当の記事はありません。</p>
 		<?php endif; ?>
